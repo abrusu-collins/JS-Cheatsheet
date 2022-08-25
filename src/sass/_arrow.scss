@@ -1,0 +1,22 @@
+.arrow{
+    color: white;
+  margin-bottom: 10px;
+  animation-name: bounce;
+  animation-timing-function: ease;
+  animation-duration: 2s;
+  animation-iteration-count: infinite
+}
+@keyframes bounce {
+    0% {
+      transform: translateY(0);
+  }
+  30% {
+      transform: translateY(-10px);
+  }
+  50% {
+      transform: translateY(0);
+  }
+  100% {
+      transform: translateY(0);
+  }
+  }
