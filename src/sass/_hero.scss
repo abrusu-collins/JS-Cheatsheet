@@ -1,5 +1,11 @@
-.hero{
-    background-color: $hero_background;
-    text-align: center;
-    
+@import url("https://fonts.googleapis.com/css2?family=Aboreto&display=swap");
+.hero {
+  background-color: $hero_background;
+  height: 100vh;
+  & .herotxt {
+    & h1 {
+      font-family: "Aboreto", cursive;
+      font-size: 50px;
+    }
+  }
 }
