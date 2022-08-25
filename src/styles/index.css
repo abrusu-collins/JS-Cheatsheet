@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Aboreto&display=swap");
 * {
   margin: 0;
@@ -8,6 +9,11 @@
 .hero {
   background-color: #A3CEF1;
   height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  font-family: "Raleway", sans-serif;
+  font-size: 25px;
 }
 .hero .herotxt h1 {
   font-family: "Aboreto", cursive;
