@@ -1,11 +1,10 @@
-import "./ind.css"
-import img from "./img/hero- img.png"
+import "./styles/index.css"
+import Hero from "./components/Hero";
 function App() {
   return (
-    
-  <main>
-  <img src={img} alt="kml"></img>
-  </main>
+ <>
+ <Hero/>
+ </>
   
   );
 }
