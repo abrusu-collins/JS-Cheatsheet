@@ -4,7 +4,6 @@
   display: flex;
   align-items: center;
   justify-content: space-around;
-  font-family: 'Roboto', sans-serif;
   font-size: 20px;
   & .herotxt {
     & h1 {
@@ -13,7 +12,6 @@
       margin-bottom: 20px;
     }
     & a{
-        text-decoration: none;
         display: inline-block;
         background-color:   $button_backgroundcolor;
         border-radius: 5px;
