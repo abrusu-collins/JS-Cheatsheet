@@ -188,3 +188,7 @@ span {
   font-size: 50px;
   font-family: "Aboreto", cursive;
 }
+
+.slider {
+  width: 50%;
+}
