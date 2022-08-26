@@ -32,6 +32,49 @@
   margin-top: 20px;
 }
 
+.arrow {
+  color: #0066ff;
+  margin-left: 90px;
+  margin-top: -40px;
+  -webkit-animation-name: bounce;
+          animation-name: bounce;
+  -webkit-animation-timing-function: ease;
+          animation-timing-function: ease;
+  -webkit-animation-duration: 2s;
+          animation-duration: 2s;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+}
+
+@-webkit-keyframes bounce {
+  0% {
+    transform: translateY(0);
+  }
+  30% {
+    transform: translateY(-10px);
+  }
+  50% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+@keyframes bounce {
+  0% {
+    transform: translateY(0);
+  }
+  30% {
+    transform: translateY(-10px);
+  }
+  50% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
 .header {
   font-family: "Aboreto", cursive;
   font-size: 50px;
