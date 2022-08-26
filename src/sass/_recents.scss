@@ -2,7 +2,7 @@
   display: flex;
   align-items: center;
   justify-content: space-around;
-  height: 80vh;
+  margin-top: 150px;
   & .recentcheatsheetsheading {
     font-family: "Aboreto", cursive;
     font-size: 50px;
@@ -21,6 +21,7 @@
       border: 1px solid black;
       padding: 10px 15px;
       border-radius: 5px;
+      text-align: center;
       &:hover {
         color: rgba(0, 0, 0, 0.5);
         border-color: rgba(0, 0, 0, 0.5);
@@ -40,6 +41,7 @@
       background-color: $button_backgroundcolor;
       border: none;
       color: white;
+      text-align: center;
       &:hover {
         color: white;
       }

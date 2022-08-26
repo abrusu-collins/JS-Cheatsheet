@@ -6,7 +6,7 @@ function Hero() {
         <h1>JSCheatSheets</h1>
         <p>Stop wasting your time when writing code.</p>
         <p>
-          JSCheatsheets help you make quick <br></br> references whenever you
+          JSCheatsheets helps you make quick <br></br> references whenever you
           are stranded.
         </p>
         <p>Get all your JavaScript cheetsheats here.</p>

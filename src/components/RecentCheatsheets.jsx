@@ -1,7 +1,7 @@
 function RecentCheatsheets() {
   return (
     <div className="recentcheatsheets">
-      <h1 className="recentcheatsheetsheading">RECENT <br /> CHEATSHEETS</h1>
+      <h1 className="recentcheatsheetsheading">RECENT <br />CHEATSHEETS</h1>
       <div className="recentcheatsheets1">
         <a href=" ">Array Cheatsheet</a>
         <a href=" ">String Cheatsheet</a>

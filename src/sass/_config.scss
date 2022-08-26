@@ -1,16 +1,20 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Aboreto&display=swap");
 
-$hero_background: #A3CEF1;
-$button_backgroundcolor:#0066ff;
+$hero_background: #a3cef1;
+$button_backgroundcolor: #0066ff;
 
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'Roboto', sans-serif;
-
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
 }
-a{
-    text-decoration: none;
+a {
+  text-decoration: none;
+}
+span{
+    color:$button_backgroundcolor;
+    font-family: "Aboreto", cursive;
+
 }
