@@ -204,12 +204,18 @@ span {
 }
 .testimonies .flex4 .flex2 .testimonial1,
 .testimonies .flex4 .flex2 .testimonial2 {
+  text-align: center;
   background-color: #a3cef1;
   padding: 50px;
   border-radius: 10px;
 }
+.testimonies .flex4 .flex2 .testimonial1 .profile,
+.testimonies .flex4 .flex2 .testimonial2 .profile {
+  text-align: center;
+}
 .testimonies .flex4 .flex2 .testimonial1 .profile .image,
 .testimonies .flex4 .flex2 .testimonial2 .profile .image {
+  text-align: center;
   height: 50px;
   width: 50px;
   border-radius: 50%;

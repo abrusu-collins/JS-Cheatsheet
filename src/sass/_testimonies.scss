@@ -20,11 +20,14 @@
       gap: 2rem;
       & .testimonial1,
       .testimonial2 {
+        text-align: center;
         background-color: $hero_background;
         padding: 50px;
         border-radius: 10px;
         & .profile {
+          text-align: center;
           & .image {
+            text-align: center;
             height: 50px;
             width: 50px;
             border-radius: 50%;
