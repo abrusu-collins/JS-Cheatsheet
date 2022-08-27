@@ -17,7 +17,7 @@ function Why() {
                 </div>
                 <div className="explain">
                 <h3>Offline Use</h3>
-                <p>Download cheatsheets in PDF or jpg format for offline.</p>
+                <p>Download cheatsheets in PDF or jpg format for offline use.</p>
                 </div>
             </div>
             <div className="reason3">
@@ -26,7 +26,7 @@ function Why() {
                 </div>
                 <div className="explain">
                 <h3>It's free!!</h3>
-                <p>It's free of charge, no need to pay before you can use JSCheatsheets.</p>
+                <p>It's free of charge, no need to pay before you can use these amazing Cheatsheets.</p>
                 </div>
             </div>
         </div>
