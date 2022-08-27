@@ -5,8 +5,8 @@ function Testimonies() {
         What Other <br /> Developers <br /> are saying
       </h1>
 
-      <div className="4flex">
-        <div className="2flex">
+      <div className="flex4">
+        <div className="flex2">
           <div className="testimonial1">
             <div className="maintestimony">
               Lorem ipsum dolor sit amet, consectetur adipisicing elit.
@@ -14,13 +14,54 @@ function Testimonies() {
               alias sapiente, possimus odio rem quae omnis fugiat, magnam vel ea
               in? Asperiores.
             </div>
-            <div className="profile"></div>
+            <div className="profile">
+              <div className="image"></div>
+              <p>Abrusu Collins</p>
+            </div>
           </div>
 
-          <div className="testimonial2"></div>
+          <div className="testimonial2">
+          <div className="maintestimony">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+              Repudiandae architecto eaque esse unde recusandae amet dicta hic
+              alias sapiente, possimus odio rem quae omnis fugiat, magnam vel ea
+              in? Asperiores.
+            </div>
+            <div className="profile">
+              <div className="image"></div>
+              <p>Abrusu Collins</p>
+            </div>
+          </div>
         </div>
 
-        <div className="2flex"></div>
+        <div className="flex2">
+        <div className="testimonial1">
+            <div className="maintestimony">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+              Repudiandae architecto eaque esse unde recusandae amet dicta hic
+              alias sapiente, possimus odio rem quae omnis fugiat, magnam vel ea
+              in? Asperiores.
+            </div>
+            <div className="profile">
+              <div className="image"></div>
+              <p>Abrusu Collins</p>
+            </div>
+          </div>
+
+          <div className="testimonial2">
+          <div className="maintestimony">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+              Repudiandae architecto eaque esse unde recusandae amet dicta hic
+              alias sapiente, possimus odio rem quae omnis fugiat, magnam vel ea
+              in? Asperiores.
+            </div>
+            <div className="profile">
+              <div className="image"></div>
+              <p>Abrusu Collins</p>
+            </div>
+          </div>
+
+        </div>
       </div>
     </div>
   );
