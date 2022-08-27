@@ -204,20 +204,29 @@ span {
 }
 .testimonies .flex4 .flex2 .testimonial1,
 .testimonies .flex4 .flex2 .testimonial2 {
-  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   background-color: #a3cef1;
   padding: 50px;
   border-radius: 10px;
 }
 .testimonies .flex4 .flex2 .testimonial1 .profile,
 .testimonies .flex4 .flex2 .testimonial2 .profile {
-  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.testimonies .flex4 .flex2 .testimonial1 .profile p,
+.testimonies .flex4 .flex2 .testimonial2 .profile p {
+  font-family: "Aboreto", cursive;
+  font-weight: 700;
 }
 .testimonies .flex4 .flex2 .testimonial1 .profile .image,
 .testimonies .flex4 .flex2 .testimonial2 .profile .image {
-  text-align: center;
-  height: 50px;
-  width: 50px;
+  margin: 20px 0;
+  height: 70px;
+  width: 70px;
   border-radius: 50%;
   background-color: #0066ff;
 }
