@@ -5,6 +5,7 @@ import RecentCheatsheets from "./components/RecentCheatsheets";
 import WhyHeader from "./components/WhyHeader";
 import Why from "./components/Why";
 import Testimonies from "./components/Testimonies";
+import Footer from "./components/Footer";
 function App() {
   return (
     <>
@@ -14,6 +15,7 @@ function App() {
       <WhyHeader/>
       <Why/>
       <Testimonies/>
+      <Footer/>
     </>
   );
 }
