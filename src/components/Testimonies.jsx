@@ -24,8 +24,7 @@ function Testimonies() {
           <div className="maintestimony">
               Lorem ipsum dolor sit amet, consectetur adipisicing elit.
               Repudiandae architecto eaque esse unde recusandae amet dicta hic
-              alias sapiente, possimus odio rem quae omnis fugiat, magnam vel ea
-              in? Asperiores.
+             
             </div>
             <div className="profile">
               <div className="image"></div>
@@ -39,8 +38,7 @@ function Testimonies() {
             <div className="maintestimony">
               Lorem ipsum dolor sit amet, consectetur adipisicing elit.
               Repudiandae architecto eaque esse unde recusandae amet dicta hic
-              alias sapiente, possimus odio rem quae omnis fugiat, magnam vel ea
-              in? Asperiores.
+              
             </div>
             <div className="profile">
               <div className="image"></div>
