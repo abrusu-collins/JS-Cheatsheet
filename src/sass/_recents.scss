@@ -1,7 +1,9 @@
 .recentcheatsheets {
+  width:80%;
   display: flex;
   align-items: center;
   justify-content: space-around;
+  margin: auto;
   margin-top: 150px;
   & .recentcheatsheetsheading {
     font-family: "Aboreto", cursive;
