@@ -22,10 +22,10 @@ function Footer() {
 
       <div className="contacts">
         <h1>Contacts</h1>
-        <a href=" ">Twitter</a>
-        <a href=" "> LinkedIn</a>
-        <a href=" ">GitHub</a>
-        <a href=" ">Feedback</a>
+        <a href="https://twitter.com/devSedem">Twitter</a>
+        <a href="https://www.linkedin.com/in/abrusu-collins-359a4416a/"> LinkedIn</a>
+        <a href="https://github.com/abrusu-collins">GitHub</a>
+        <a href="mailto:snillochemingson@gmail.com">Feedback</a>
       </div>
     </footer>
   );
