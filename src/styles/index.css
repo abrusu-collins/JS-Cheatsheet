@@ -156,9 +156,9 @@ span {
   align-items: center;
   justify-content: space-around;
   margin-top: 60px;
+  background-color: #a3cef1;
 }
 .why div {
-  background-color: #a3cef1;
   padding: 30px;
   display: flex;
   flex-direction: column;

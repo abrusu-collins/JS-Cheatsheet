@@ -3,9 +3,9 @@
   align-items: center;
   justify-content: space-around;
   margin-top: 60px;
+  background-color: $hero_background;
 
   & div {
-    background-color: $hero_background;
     padding: 30px;
     display: flex;
     flex-direction: column;
