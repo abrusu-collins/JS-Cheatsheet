@@ -1,4 +1,4 @@
-import img from "../img/carbon.svg";
+import img from "../../img/carbon.svg";
 function Hero() {
   return (
     <div className="hero">
