@@ -9,25 +9,24 @@ function Testimonies() {
         <div className="flex2">
           <div className="testimonial1">
             <div className="maintestimony">
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-              Repudiandae architecto eaque esse unde recusandae amet dicta hic
-              alias sapiente, possimus odio rem quae omnis fugiat, magnam vel ea
-              in? Asperiores.
+              I had 3 days to prepare for an interview so I needed a summary of
+              some basic JavaScript concepts. I came across JSCeatsheets by
+              chance and it helped me a lot.
             </div>
             <div className="profile">
               <div className="image"></div>
-              <p>Abrusu Collins</p>
+              <p>Kenneth Marfo</p>
             </div>
           </div>
 
           <div className="testimonial2">
             <div className="maintestimony">
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-              Repudiandae architecto eaque esse unde recusandae amet dicta hic
+              How on earth is this free, it feels illegal to know this site. I
+              recommend these cheatsheets for every JavaScript developer.
             </div>
             <div className="profile">
-              <div className="image"></div>
-              <p>Abrusu Collins</p>
+              <img src= alt="farhan img" className="image"></img>
+              <p>yahaya farhan</p>
             </div>
           </div>
         </div>
@@ -35,25 +34,26 @@ function Testimonies() {
         <div className="flex2">
           <div className="testimonial1">
             <div className="maintestimony">
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-              Repudiandae architecto eaque esse unde recusandae amet dicta hic
+              I've downloaded all the cheatsheets so that I can be using them
+              offline. JSCheatsheets reduces the stress of searching things on
+              the internet everyday.
             </div>
             <div className="profile">
               <div className="image"></div>
-              <p>Abrusu Collins</p>
+              <p>adam labaran </p>
             </div>
           </div>
 
           <div className="testimonial2">
             <div className="maintestimony">
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-              Repudiandae architecto eaque esse unde recusandae amet dicta hic
-              alias sapiente, possimus odio rem quae omnis fugiat, magnam vel ea
-              in? Asperiores.
+              I am a python developer, recently at my work place I was given
+              some simple task to implement with JavaScript. After an intensive
+              research, I found JSCheasheets. God bless the creator of this
+              wonderful site.
             </div>
             <div className="profile">
               <div className="image"></div>
-              <p>Abrusu Collins</p>
+              <p>mark owusu</p>
             </div>
           </div>
         </div>
