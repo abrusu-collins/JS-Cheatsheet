@@ -11,11 +11,11 @@ function App() {
     <>
       <Hero />
       <Arrow />
-      < RecentCheatsheets/>
-      <WhyHeader/>
-      <Why/>
-      <Testimonies/>
-      <Footer/>
+      <RecentCheatsheets />
+      <WhyHeader />
+      <Why />
+      <Testimonies />
+      <Footer />
     </>
   );
 }
