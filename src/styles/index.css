@@ -187,7 +187,7 @@ span {
   display: flex;
   justify-content: space-around;
   width: 80%;
-  margin: 100px auto;
+  margin: 150px auto 0 auto;
   align-items: center;
 }
 .testimonies .testimoniesheader {
@@ -231,4 +231,24 @@ span {
   width: 70px;
   border-radius: 50%;
   background-color: #0066ff;
+}
+
+.footer {
+  margin-top: 150px;
+  padding: 20px 0;
+  border-top: 3px solid #a3cef1;
+  display: flex;
+  justify-content: space-around;
+}
+.footer h1 {
+  font-family: "Aboreto", cursive;
+  font-size: 17px;
+  margin-bottom: 20px;
+}
+.footer a {
+  background-color: #0066ff;
+  color: white;
+  padding: 10px 15px;
+  border-radius: 5px;
+  display: inline-block;
 }

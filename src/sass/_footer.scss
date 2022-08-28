@@ -1,0 +1,21 @@
+.footer{
+    margin-top: 150px;
+    padding: 20px 0;
+    border-top: 3px solid $hero_background;
+    display: flex;
+    justify-content: space-around;
+    & h1{
+        font-family: "Aboreto", cursive;
+        font-size: 17px;
+        margin-bottom: 20px;
+
+    }
+    
+    & a{
+        background-color: $button_backgroundcolor;
+        color:white;
+        padding :10px 15px;
+        border-radius: 5px;
+        display: inline-block;
+    }
+}
