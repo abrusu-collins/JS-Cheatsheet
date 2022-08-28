@@ -1,6 +1,7 @@
+import markimg from "../../img/mark.jfif";
 import farhanimg from "../../img/farhan.jfif";
 import adamimg from "../../img/adam.jfif";
-import markimg from "../../img/mark.jfif";
+import fredricaimg from "../../img/fredrica.jfif";
 
 function Testimonies() {
   return (
@@ -18,8 +19,8 @@ function Testimonies() {
               chance and it helped me a lot.
             </div>
             <div className="profile">
-              <img src={farhanimg} alt="farhan img" className="image"></img>
-              <p>Kenneth Marfo</p>
+              <img src={fredricaimg} alt="fredrica img" className="image"></img>
+              <p>Fredrica Arthur</p>
             </div>
           </div>
 

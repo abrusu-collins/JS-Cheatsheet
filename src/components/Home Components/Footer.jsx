@@ -20,7 +20,6 @@ function Footer() {
           to keep it going
         </p>
         <a href="https://patreon.com/abrusucollins?utm_medium=clipboard_copy&utm_source=copyLink&utm_campaign=creatorshare_creator">
-          {" "}
           Support
         </a>
       </div>
