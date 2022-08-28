@@ -1,3 +1,7 @@
+import farhanimg from "../../img/farhan.jfif";
+import adamimg from "../../img/adam.jfif";
+import markimg from "../../img/mark.jfif";
+
 function Testimonies() {
   return (
     <div className="testimonies">
@@ -14,7 +18,7 @@ function Testimonies() {
               chance and it helped me a lot.
             </div>
             <div className="profile">
-              <div className="image"></div>
+              <img src={farhanimg} alt="farhan img" className="image"></img>
               <p>Kenneth Marfo</p>
             </div>
           </div>
@@ -25,7 +29,7 @@ function Testimonies() {
               recommend these cheatsheets for every JavaScript developer.
             </div>
             <div className="profile">
-              <img src= alt="farhan img" className="image"></img>
+              <img src={farhanimg} alt="farhan img" className="image"></img>
               <p>yahaya farhan</p>
             </div>
           </div>
@@ -39,7 +43,7 @@ function Testimonies() {
               the internet everyday.
             </div>
             <div className="profile">
-              <div className="image"></div>
+              <img src={adamimg} alt="adam img" className="image"></img>
               <p>adam labaran </p>
             </div>
           </div>
@@ -52,7 +56,7 @@ function Testimonies() {
               wonderful site.
             </div>
             <div className="profile">
-              <div className="image"></div>
+              <img src={markimg} alt="mark img" className="image"></img>
               <p>mark owusu</p>
             </div>
           </div>
