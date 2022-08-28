@@ -10,7 +10,7 @@ function Hero() {
           are stranded.
         </p>
         <p>Get all your JavaScript cheetsheats here.</p>
-        <a href=" ">All CheatSheets</a>
+        <a href="/allcheatsheets">All CheatSheets</a>
       </div>
       <img src={img} alt="hero-img" />
     </div>

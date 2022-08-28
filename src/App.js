@@ -12,7 +12,6 @@ import RegExp from "./components/Cheatsheets/RegExp/RegExp";
 function App() {
   return (
     <Router>
-      <Home />
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/allcheatsheets" element={<Allcheatsheets />} />
@@ -21,8 +20,6 @@ function App() {
         <Route path="/dom" element={<DOM />} />
         <Route path="/string" element={<String />} />
         <Route path="/regexp" element={<RegExp />} />
-
-
       </Routes>
     </Router>
   );
