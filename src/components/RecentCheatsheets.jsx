@@ -9,7 +9,7 @@ function RecentCheatsheets() {
       </div>
       <div className="recentcheatsheets2">
         <a href=" ">DOM Cheatsheet</a>
-        <a href=" ">String Cheatsheet</a>
+        <a href=" ">API Calls Cheatsheet</a>
         <a className="allcheatsheets" href=" ">All Cheatsheets</a>
       </div>
     </div>
