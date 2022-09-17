@@ -17,7 +17,7 @@ function Footer() {
         <h1>Support</h1>
         <p>
           Do you like JSCheatSheets, <br /> You can support the <br /> project
-          to keep it going
+          to keep it going.
         </p>
         <a href="https://patreon.com/abrusucollins?utm_medium=clipboard_copy&utm_source=copyLink&utm_campaign=creatorshare_creator">
           Support
