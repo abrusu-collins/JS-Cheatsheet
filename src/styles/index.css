@@ -297,6 +297,7 @@ span {
 }
 .array .declare_array p {
   margin-top: -15px;
+  margin-bottom: 20px;
 }
 .array .declare_array .code_block {
   color: white;
