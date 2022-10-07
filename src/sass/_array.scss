@@ -5,6 +5,22 @@
     & h2 {
       font-family: "Poppins", sans-serif;
       font-size: 32px;
+      margin-bottom: 20px;
+    }
+    & .code_block {
+      color: white;
+      background-color: $code_background;
+      padding: 20px;
+      border-radius: 20px;
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-end;
+      & button{
+        background-color: black;
+        color: white;
+        padding: 4px;
+        border-radius: 4px;
+      }
     }
   }
 

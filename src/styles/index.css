@@ -293,6 +293,22 @@ span {
 .array .declare_array h2 {
   font-family: "Poppins", sans-serif;
   font-size: 32px;
+  margin-bottom: 20px;
+}
+.array .declare_array .code_block {
+  color: white;
+  background-color: #183153;
+  padding: 20px;
+  border-radius: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+.array .declare_array .code_block button {
+  background-color: black;
+  color: white;
+  padding: 4px;
+  border-radius: 4px;
 }
 .array .banner_head {
   font-family: "Aboreto", cursive;
