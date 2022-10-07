@@ -7,6 +7,9 @@
       font-size: 32px;
       margin-bottom: 20px;
     }
+    & p{
+        margin-top: -15px;
+    }
     & .code_block {
       color: white;
       background-color: $code_background;
