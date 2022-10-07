@@ -1,7 +1,10 @@
 import { useState } from "react";
 
 function Array() {
-  let [buttonText, setButtonText] = useState("Copy");
+  let [button1Text, setButton1Text] = useState("Copy");
+  let [button2Text, setButton2Text] = useState("Copy");
+  let [button3Text, setButton3Text] = useState("Copy");
+  
   return (
     <>
       <div className="array">
@@ -23,11 +26,11 @@ function Array() {
             <button
               onClick={(e) => {
                 navigator.clipboard.writeText("let array = [ 1,2,3,4 ];");
-                setButtonText("Copied");
-                setTimeout(()=>{setButtonText("Copy")},2000);
+                setButton1Text("Copied");
+                setTimeout(()=>{setButton1Text("Copy")},2000);
               }}
             >
-              {buttonText}
+              {button1Text}
             </button>
           </div>
 
@@ -49,11 +52,11 @@ function Array() {
                 navigator.clipboard.writeText(
                   "let array = new Array( 1,2,3 );"
                 );
-                setButtonText("Copied");
-                setTimeout(()=>{setButtonText("Copy")},2000);
+                setButton2Text("Copied");
+                setTimeout(()=>{setButton2Text("Copy")},2000);
               }}
             >
-              {buttonText}
+              {button2Text}
             </button>
           </div>
           <h2 className="top_marginator">Accessing Array Elements</h2>
@@ -76,11 +79,11 @@ function Array() {
             <button
               onClick={(e) => {
                 navigator.clipboard.writeText("console.log(array[0])");
-                setButtonText("Copied");
-                setTimeout(()=>{setButtonText("Copy")},2000);
+                setButton3Text("Copied");
+                setTimeout(()=>{setButton3Text("Copy")},2000);
               }}
             >
-              {buttonText}
+              {button3Text}
             </button>
           </div>
           <h2 className="top_marginator">Adding Elements to an Array</h2>
