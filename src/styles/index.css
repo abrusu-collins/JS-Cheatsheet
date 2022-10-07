@@ -14,19 +14,14 @@ a {
 
 span {
   color: #0066ff;
-  font-family: "Aboreto", cursive;
 }
 
 .keyword {
   color: rgb(197, 165, 197);
 }
 
-.class-name {
+.variable_name {
   color: rgb(250, 200, 99);
-}
-
-.keyword {
-  color: rgb(197, 165, 197);
 }
 
 .punctuation {
