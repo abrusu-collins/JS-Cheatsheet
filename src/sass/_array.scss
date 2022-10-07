@@ -1,7 +1,7 @@
 .array {
   & .declare_array {
     margin: 100px auto 0 auto;
-    width: 60%;
+    width: 50%;
     & h2 {
       font-family: "Poppins", sans-serif;
       font-size: 32px;
@@ -15,11 +15,16 @@
       display: flex;
       justify-content: space-between;
       align-items: flex-end;
-      & button{
+      margin-bottom: 20px;
+
+      & button {
         background-color: black;
         color: white;
         padding: 4px;
         border-radius: 4px;
+        &:hover{
+            cursor: pointer;
+        }
       }
     }
   }

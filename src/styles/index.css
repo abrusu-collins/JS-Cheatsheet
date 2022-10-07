@@ -288,7 +288,7 @@ span {
 
 .array .declare_array {
   margin: 100px auto 0 auto;
-  width: 60%;
+  width: 50%;
 }
 .array .declare_array h2 {
   font-family: "Poppins", sans-serif;
@@ -303,12 +303,16 @@ span {
   display: flex;
   justify-content: space-between;
   align-items: flex-end;
+  margin-bottom: 20px;
 }
 .array .declare_array .code_block button {
   background-color: black;
   color: white;
   padding: 4px;
   border-radius: 4px;
+}
+.array .declare_array .code_block button:hover {
+  cursor: pointer;
 }
 .array .banner_head {
   font-family: "Aboreto", cursive;
