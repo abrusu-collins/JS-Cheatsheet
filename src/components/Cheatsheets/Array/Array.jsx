@@ -18,7 +18,7 @@ function Array() {
             </pre>
             <button
               onClick={() => {
-                navigator.clipboard.writeText("Copy this text to clipboard");
+                navigator.clipboard.writeText("let array = [ 1,2,3,4 ];");
                 this.innerText = "Copied";
               }}
             >

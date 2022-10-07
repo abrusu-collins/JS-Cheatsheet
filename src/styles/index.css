@@ -286,6 +286,10 @@ span {
   text-align: center;
 }
 
+.array .declare_array {
+  margin: 100px auto 0 auto;
+  width: 60%;
+}
 .array .declare_array h2 {
   font-family: "Poppins", sans-serif;
   font-size: 32px;
