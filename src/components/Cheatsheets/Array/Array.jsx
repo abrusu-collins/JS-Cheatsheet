@@ -51,7 +51,7 @@ function Array() {
               Copy
             </button>
           </div>
-          <h2>Accessing Array Elements</h2>
+          <h2 className="top_marginator">Accessing Array Elements</h2>
           <p>
             We access elements/members of an array using their index. Indices
             start from 0(the first member), 1(the second member), 2, 3,..., n(last member).
