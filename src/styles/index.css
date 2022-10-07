@@ -16,6 +16,30 @@ span {
   font-family: "Aboreto", cursive;
 }
 
+.keyword {
+  color: rgb(197, 165, 197);
+}
+
+.class-name {
+  color: rgb(250, 200, 99);
+}
+
+.keyword {
+  color: rgb(197, 165, 197);
+}
+
+.punctuation {
+  color: rgb(136, 198, 190);
+}
+
+.function {
+  color: rgb(121, 182, 242);
+}
+
+.tag {
+  color: rgb(252, 146, 158);
+}
+
 .hero {
   background-color: #a3cef1;
   height: 100vh;
@@ -264,4 +288,17 @@ span {
   border-radius: 5px;
   display: inline-block;
   text-align: center;
+}
+
+.array .banner_head {
+  font-family: "Aboreto", cursive;
+  background: #a3cef1 url("../img/banner.png");
+  background-repeat: repeat;
+  background-size: contain;
+  height: 30vh;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 50px;
 }

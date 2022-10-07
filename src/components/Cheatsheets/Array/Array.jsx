@@ -1,6 +1,12 @@
 function Array() {
     return ( 
-        <>Array</>
+        <>
+        <div className="array">
+            <div className="banner_head">Array Cheatsheet</div>
+        </div>
+        
+        
+        </>
      );
 }
 
