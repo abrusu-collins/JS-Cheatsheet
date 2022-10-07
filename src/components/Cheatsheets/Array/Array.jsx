@@ -1,4 +1,7 @@
+import { useState } from "react";
+
 function Array() {
+  let [buttonText, setButtonText] = useState("Copy");
   return (
     <>
       <div className="array">
@@ -20,10 +23,11 @@ function Array() {
             <button
               onClick={(e) => {
                 navigator.clipboard.writeText("let array = [ 1,2,3,4 ];");
-                e.currentTarget.innerText = "Copied";
+                setButtonText("Copied");
+                setTimeout(()=>{setButtonText("Copy")},2000);
               }}
             >
-              Copy
+              {buttonText}
             </button>
           </div>
 
@@ -45,10 +49,11 @@ function Array() {
                 navigator.clipboard.writeText(
                   "let array = new Array( 1,2,3 );"
                 );
-                e.currentTarget.innerText = "Copied";
+                setButtonText("Copied");
+                setTimeout(()=>{setButtonText("Copy")},2000);
               }}
             >
-              Copy
+              {buttonText}
             </button>
           </div>
           <h2 className="top_marginator">Accessing Array Elements</h2>
@@ -59,7 +64,7 @@ function Array() {
           </p>
           <div className="code_block">
             <pre>
-             console.log(array[0]); //returns the first element
+              console.log(array[0]); //returns the first element
               <br />
               <br />
               console.log(array[1]); //returns the second element
@@ -70,15 +75,15 @@ function Array() {
 
             <button
               onClick={(e) => {
-                navigator.clipboard.writeText(
-                  "console.log(array[0])"
-                );
-                e.currentTarget.innerText = "Copied";
+                navigator.clipboard.writeText("console.log(array[0])");
+                setButtonText("Copied");
+                setTimeout(()=>{setButtonText("Copy")},2000);
               }}
             >
-              Copy
+              {buttonText}
             </button>
           </div>
+          <h2 className="top_marginator">Adding Elements to an Array</h2>
         </div>
       </div>
     </>
