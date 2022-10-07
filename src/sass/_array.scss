@@ -1,4 +1,11 @@
 .array {
+  & .declare_array {
+    & h2 {
+      font-family: "Poppins", sans-serif;
+      font-size: 32px;
+    }
+  }
+
   & .banner_head {
     font-family: "Aboreto", cursive;
     background: $hero_background url("../img/banner.png");
